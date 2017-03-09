@@ -1,0 +1,39 @@
+/* GENERAL */
+
+.min-height {
+	min-height: calc(100vh - 80px);
+}
+
+
+/* HEADER */
+
+.header {
+	background-color: #5eb4ef;
+	height: 100px;
+}
+
+
+/* WRAPPER */
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	padding: 10px;
+	position: relative;
+	min-width: 1100px;
+}
+
+.start {
+	margin: 0 auto;
+	display: block;
+	width: 170px;
+	height: 50px;
+}
+
+/* FOOTER */
+
+.footer {
+	line-height: 80px;
+	background-color: #5eb4ef;
+	text-align: center;
+}
