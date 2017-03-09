@@ -52,7 +52,7 @@ class Target {
 		self.timerID = window.setInterval(function () {
 			if (self.switchVisibility() === "hidden" && !self.clicked) {
 				if (--lives <= 0) {
-					starter.value = "Сударь, да вы проебали!";
+					starter.value = "Сударь, да вы проиграли!";
 					clearInterval(self.timerID);
 				}
 				console.log(lives);
