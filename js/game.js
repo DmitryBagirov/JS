@@ -68,7 +68,7 @@ class Target {
 				self.timeout -= 100;
 				self.timer();
 			} else {
-				clearInterval(timer);
+				clearInterval(self.handlerID);
 			}
 		}, 10000);
 	}
